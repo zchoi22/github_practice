@@ -24,3 +24,8 @@ Person B: push to your remote branch using: git push --set-upstream origin <BRAN
 Person A: resolve the pull request by looking over the changes requested for the merge on your own computer, and then closing the pull request.
     Delete the remote branch from Person B (the feture is merged into your product, no need to keep the     feature branch hanging about.)
 Person B: checkout master, pull from master.
+
+**Q7** - Run git branch. Did your local copy of your branch delete when Person A deleted the remote branch?
+
+If not, delete the local copy of the branch using git branch -d BRANCHNAME
+'branch2' didn't delete when the local copy was deleted.
